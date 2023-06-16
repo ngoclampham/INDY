@@ -1,0 +1,36 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: cornsilk;
+    background-image: url('https://s3.amazonaws.com/media.briantracy.com/blog/wp-content/uploads/2021/09/03073828/motivational-inspirational-quotes.jpg');
+    height:100%;
+
+    background-size: cover;
+    text-shadow: #000000 1px 1px 1px;
+    height: 100vh;
+    display: box;
+    place-items: left;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+div{
+    margin-left: 800px;
+}
+footer{
+    text-align: center;
+    color:white;
+}
+.flex-button{
+    background-color: #06920b; /* Green background */
+	border: none; /* Remove borders */
+	color: white; /* White text */
+	padding: 12px 24px; /* Some padding */
+	text-align: right; /* Center text */
+	text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Font size */
+    margin: 10px 9px; /* Add some margin */
+    cursor: pointer; /* Add cursor on hover */
+    border-radius: 4px; /* Add rounded corners */
+}
