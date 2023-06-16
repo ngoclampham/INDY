@@ -1,0 +1,149 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+
+  p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+  } */
+  .flex-button{
+    background-color: #6447f5; /* Green background */
+	border: none; /* Remove borders */
+	color: rgb(255, 255, 255); /* White text */
+	padding: 12px 24px; /* Some padding */
+	text-align: right; /* Center text */
+	text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline */
+    font-size: 16px; /* Font size */
+    margin: 10px 9px; /* Add some margin */
+    cursor: pointer; /* Add cursor on hover */
+    border-radius: 4px; /* Add rounded corners */
+}
+.navbar {
+    background-color: #ff872c;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: rgb(99, 99, 245);}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ff872c;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ff872c;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+/* videos css 6:19*/
+video {
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    margin-bottom: 20px;
+    border-radius:50px;
+  }
+  
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+.video-container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+.vid-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  /* for 16:9 */
+  
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 177%; /* 6:19 aspect ratio for responsive resizing */
+  }
+
+.vid-wrapper{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive resizing */
+  }
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.vid-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+.video-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+.video-description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+  }
+  
